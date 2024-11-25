@@ -109,6 +109,7 @@ def contains(my_map, key):
         return True
     if linear_search(my_map, value_hash, key):
         return True
+    return False
 
 def size(my_map):
     return my_map["size"]
