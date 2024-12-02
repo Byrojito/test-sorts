@@ -37,7 +37,7 @@ def setup_tests():
     return my_graph, no_conected
 
 
-@handle_not_implemented
+
 def test_breath_first_search():
     my_graph, n = setup_tests()
     new_bfs = bfs.breath_first_search(my_graph, 1)
